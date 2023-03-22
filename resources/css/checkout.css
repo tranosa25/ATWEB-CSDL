@@ -1,0 +1,179 @@
+.container-checkout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-checkout .left {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  background-color: whitesmoke;
+}
+
+.container-checkout .left .left-cont {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-checkout .left .left-cont h1 {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.container-checkout .left .left-cont input {
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.container-checkout .left .left-cont label input {
+  height: 10px;
+}
+
+.container-checkout .left .left-cont .cod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-checkout .left .left-cont .bt-tt {
+  text-align: center;
+  padding-top: 25px;
+  margin: 0px 150px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px;
+  background-color: rgb(128, 0, 0);
+}
+
+.container-checkout .right {
+  width: 700px;
+  padding: 0px 30px;
+}
+
+.container-checkout .right img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin-right: 20px;
+}
+
+.container-checkout .right .right-cont {
+  display: block;
+}
+
+.container-checkout .right .right-cont h1 {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.container-checkout .right .right-cont .item-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.container-checkout .right .right-cont .item-cart .item-cart1 {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-checkout .right .right-cont .item-cart .item-cart1 .pr {
+  width: 300px;
+  color: black;
+}
+
+.container-checkout .right .right-cont .item-cart .item-cart1 a:hover {
+  color:red;
+}
+
+.container-checkout .right .right-cont .item-cart .item-cart1 button {
+  background-color: white;
+  color: red;
+  border: none;
+}
+.container-checkout .right .right-cont .item-cart .item-cart1 .del {
+ 	color: red;
+}
+.container-checkout .right .right-cont .item-cart .item-cart1 .sl-tt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-checkout .right .right-cont .item-cart .item-cart1 .sl-tt input {
+  width: 30px;
+  margin-right: 20px;
+  height: 20px;
+}
+
+.container-checkout .right .right-cont .item-cart .item-cart1 .sl-tt select {
+  width: 50px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.container-checkout .right .right-cont .item-cart .item-cart1 .sl-tt h4 {
+  margin-right: 20px;
+}
+
+.container-checkout .right .right-cont .sum .s-t {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.container-checkout .right .right-cont .sum .s-t h4 {
+  font-size: 20px;
+  color: black;
+}
+/*# sourceMappingURL=checkout.css.map */

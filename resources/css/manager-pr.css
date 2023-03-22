@@ -1,0 +1,144 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgb(255, 255, 0);
+}
+
+.header .container-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container-header .left-header img {
+  width: 300px;
+  height: 50px;
+}
+
+.header .container-header .right-header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container-header .right-header ul li {
+  padding: 20px;
+}
+
+.header .container-header .right-header ul li a {
+  color: #666666;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.header .container-header .right-header ul li:hover a {
+  color: red;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 98.9vw;
+}
+
+.main .main-left {
+  width: 25%;
+  padding-left: 50px;
+}
+
+.main .main-left input {
+  width: 300px;
+  height: 20px;
+}
+.main .main-left textarea {
+  width: 300px;
+  height: 100px;
+}
+.main .main-left label {
+  font-weight: normal;
+}
+
+.main .main-left button {
+  background-color: rgb(255, 255, 0);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 30px;
+  height: 40px;
+  border: none;
+  color: black;
+}
+
+.main .main-left .input-fm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 0px;
+}
+.main .main-left .bt {
+	display:flex;
+	justify-content: center;
+  width: 300px;
+  align-items: center;
+  margin:20px 0;
+}
+.main .main-left .input-fm label {
+  margin-bottom: 5px;
+}
+
+.main .main-left .type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+}
+
+.main .main-left .add-pr {
+  margin-top: 30px;
+}
+
+.main .main-left .add-pr h1 {
+  font-size: 20px;
+}
+
+.main .main-right {
+  width: 73.9%;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.main .main-right table tr {
+  width: 100%;
+  border: 1px solid black;
+  align-items: center;
+  
+}
+
+.main .main-right table tr th {
+  border: 1px solid black;
+  padding: 5px 20px;
+}
+.main .main-right table tr td {
+  border: 1px solid black;
+  text-align: center;
+}
+.main .main-right table tr td a{
+  color: red;
+}
+/*# sourceMappingURL=manager.css.map */
